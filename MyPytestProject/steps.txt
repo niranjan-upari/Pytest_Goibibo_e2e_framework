@@ -1,0 +1,20 @@
+Steps for end-to-end testing of Goibibo the website (except payment)
+1)	Visit https://www.goibibo.com/.
+2)	Close the Login/Signup dialog box.
+3)	Click on the “Trains” menu.
+4)	Enter the source name as “bengaluru” and select “SBC, Bangalore City Junction”.
+5)	Enter the destination name as “hyderabad” and select “SC, Secunderabad Junction”.
+6)	Select the “Tomorrow” radio button and click on “SEARCH TRAINS”.
+7)	Click on the EC coach of the Kcg Vande Bharat train.
+8)	Enter the IRCTC user name and validate.
+9)	Add Passenger details.
+10)	Select the radio button for the refund option.
+11)	Enter your mobile number.
+12)	Select the checkbox for travel insurance.
+13)	Click on “Proceed to Payment”.
+
+Expected output -
+Without any errors, the payments page should open.
+
+Note –
+In the future/during the festive season the webpage design might change, which throws errors with web elements not being located or some exceptions.
